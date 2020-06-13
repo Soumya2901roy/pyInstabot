@@ -55,7 +55,7 @@ for i in myjpgFiles:
     photopath=path+str(i)
     if str(i) not in str_track:
         bot = instabot.Bot(filter_private_users=False)
-        bot.login(username = "punny.sideup", password = "Mar@2020")
+        bot.login(username = "punny.sideup", password = "********")
         strTags=open('/home/ubuntu/bot_psu/file.txt','r+',encoding='utf8')
         listTag=strTags.readlines()
         leng=len(listTag)
